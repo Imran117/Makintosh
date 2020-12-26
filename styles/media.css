@@ -1,0 +1,88 @@
+@media(max-width:1200px){
+    
+}
+@media(max-width:992px){
+    .about__me{
+        flex-direction: column;
+    }
+    .me__bio{
+        padding-top: 30px;
+        align-items: center;
+    }
+    .project_title{
+        font-size: 25px;
+    }
+    .con_title{
+        font-size: 20px;
+    }
+    
+}
+@media(max-width:768px){
+    .black_title{
+        font-size: 40px;
+    }
+    .project_list{
+        text-align: center;
+        flex-grow: 1;
+    }
+    .contact_list{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_text{
+        text-align: center;
+    }
+}
+@media(max-width:576px){
+    .footer_tip{
+      text-align: center;
+    }
+    .footer__sit{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer_head{
+        padding: 0 20px;
+    }
+    .about_green{
+       flex-wrap: wrap;
+     
+    }
+    .about_ret{
+        font-size:10px;
+    }
+    .slider__text{
+        display: none;
+    }
+    .footer_tip {
+        text-align: center;
+    }
+    .footer_along{
+        text-align: center;
+    }
+    .index_catalog{
+        flex-direction: column;
+    }
+    .index_img{
+        padding-top: 20px;
+    }
+}
+@media(max-width:375px){
+    .about_green{
+        padding: 0 15px;
+        text-align: center;
+    }
+}
+@media(max-width:350px){
+    .black_title{
+        font-size: 30px;
+    }
+    .black_text{
+        font-size: 15px;
+    }
+    .about_ret{
+        font-size: 10px;
+    }
+    
+    
+}
